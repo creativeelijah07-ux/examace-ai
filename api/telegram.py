@@ -4,8 +4,8 @@ import json
 import urllib.request
 from http.server import BaseHTTPRequestHandler
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-API = f"https://api.telegram.org/bot{TOKEN}"
+TOKEN = os.environ.get("9000204306:AAHScKWzv0kpqSqHmF3pYDFw6rMPnR8zZJM", "")
+API = f"https://api.telegram.org/bot{9000204306:AAHScKWzv0kpqSqHmF3pYDFw6rMPnR8zZJM}"
 
 GENERAL = [
     "English", "Mathematics", "Biology",
